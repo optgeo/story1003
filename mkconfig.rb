@@ -25,12 +25,12 @@ File.foreach('1003.tsv') {|l|
       #{lng}
       #{lat}
     ]
-    zoom: 14
+    zoom: 14.5
     pitch: 75
     bearing: #{rand * 360 - 180}
   }
   mapAnimation: flyTo
-  rotateAnimation: false
+  rotateAnimation: true
   callback: ''
   onChapterEnter: [
   ]
