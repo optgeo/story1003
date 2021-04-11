@@ -19,7 +19,7 @@ File.foreach('1003.tsv') {|l|
   id: sierra#{count}
   alignment: #{count % 2 == 0 ? 'left' : 'right'}
   hidden: false
-  title: "#{name.gsub('"', "'")}"
+  description: "#{name.gsub('"', "'")}"
   location: {
     center: [
       #{lng}
